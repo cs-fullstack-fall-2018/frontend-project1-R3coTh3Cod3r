@@ -1,0 +1,44 @@
+
+body
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    background-image: url("daniel-josef-540635-unsplash.jpg");
+    background-repeat: no-repeat;
+
+    background-position: center center;
+    background-size:auto;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    -moz-background-size: cover ;
+    -o-background-size: cover;
+    -webkit-background-size: cover;}
+
+
+div
+{
+
+    background-image: url("daniel-josef-540635-unsplash.jpg");
+    background-repeat: no-repeat;
+
+    background-position: center center;
+    background-size:auto;
+    height: 100%;
+    -moz-background-size: cover ;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+}
+h1
+{
+    font-family:"Coji Morishita","Times New Roman" ;
+    font-size: 60px;
+    margin:50px ;
+    font-style: italic;
+    text-align: center;
+    color: red;
+
+
+}
