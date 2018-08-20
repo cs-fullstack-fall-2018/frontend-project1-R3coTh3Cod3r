@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+section{
+    width:100%;
+    height: 100%;
+    font-size: 12px;
+    background: #ee0414;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: absolute;
+    background-image: url("daniel-josef-540635-unsplash.jpg");
+    background-size: cover;
+
+}
+.wrapping{
+    width: 50%;
+    height: 100%;
+    background: #173eff;
+    overflow: hidden;
+    color: #fffb3e;
+    top: 0;
+    Left: 0;
+    border-right: 2px solid #292929;
+    background-image: url("johny-goerend-411397-unsplash.jpg");
+    background-size: cover;
+
+}
+.slide{
+    position: absolute;
+    top: 50%;
+    white-space: nowrap;
+    font-size: 12em;
+    overflow: hidden;
+    font-family: sans-serif;
+    animation: animate 7s linear infinite;
+    border-bottom-left-radius: 200px;
+    -webkit-border-top-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    -webkit-border-bottom-right-radius: 200px;
+    -moz-border-radius-bottomright: 200px;
+    -webkit-border-top-right-radius:200px ;
+    border: 2px solid black;
+
+
+}
+
+@keyframes animate {
+    0%{
+        transform:translate(0,-50%) ;
+    }
+    100% {
+        transform: translate(-50%,-50%);
+    }
+}
+
+
+.header {
+    overflow: hidden;
+    background-color: #fffff5;
+    padding: 20px 10px;
+}
+.header a {
+    float: left;
+    color: #173eff;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+.header a.logo {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Coji Morishita"
+    
+}
+.header a:hover {
+    background-color: #173eff;
+    color: #173eff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
